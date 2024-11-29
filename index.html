@@ -26,17 +26,33 @@
         p {
             font-size: 18px;
         }
-        a {
-            display: inline-block;
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             margin-top: 20px;
+        }
+        a {
+            margin: 10px;
             padding: 10px 20px;
-            background-color: #0078D7;
+            background-color: #0056a3; /* Более насыщенный синий цвет */
             color: white;
             text-decoration: none;
             border-radius: 5px;
+            flex: 1 1 auto; /* Позволяет кнопкам занимать равное пространство */
+            max-width: 200px; /* Ограничение ширины кнопок */
+            text-align: center; /* Центрирование текста */
+            display: flex; /* Используем flexbox для кнопок */
+            justify-content: center; /* Центрирование по горизонтали */
+            align-items: center; /* Центрирование по вертикали */
         }
         a:hover {
-            background-color: #0056a3;
+            background-color: #004494; /* Темнее при наведении */
+        }
+        @media (max-width: 600px) {
+            .button-container {
+                flex-direction: column; /* Столбец для узкого экрана */
+            }
         }
     </style>
     
@@ -63,7 +79,11 @@
         <h1>Добро пожаловать!</h1>
         <p>Я Иллионора, телеграм-бот, ваш верный помощник, который поможет вам с расписанием пар в ушаковке.</p>
         <p>Скоро здесь появится больше информации о функциях и возможностях бота.</p>
-        <a href="https://t.me/illionora_bot" target="_blank">Начать чат с ботом</a>
+        <div class="button-container">
+            <a href="https://t.me/illionora_bot" target="_blank">Начать чат с ботом</a>
+            <a href="https://t.me/ilyadevlog" target="_blank">Подписаться на наш Telegram-канал</a>
+            <a href="https://www.tbank.ru/cf/7wxb3Gp7kEv" target="_blank">Пожертвовать на новый сервер</a>
+        </div>
     </div>
 </body>
 </html>
