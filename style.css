@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Proxima Nova', sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background: #f0f0f0;
+    background: #ffffff;
     padding: 20px 0;
     border-bottom: 1px solid #ddd;
 }
@@ -155,7 +155,7 @@ header img {
 
 .content-section {
     padding: 40px 0;
-    background: #f9f9f9;
+    background: #ffffff;
     border-bottom: 1px solid #eee;
 }
 
@@ -222,12 +222,12 @@ footer .copyright {
 }
 
 footer a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: lightgrey
+    color: rgb(255, 255, 255)
 }
 
 .btn {
@@ -243,10 +243,10 @@ footer a:hover {
 /* Медиа-запросы для мобильных */
 @media (max-width: 768px) {
     header .container {
-        position: relative; /* Set position relative for absolute positioning of menu */
+        position: relative; 
     }
     .menu-toggle {
-         display: block; /* Показываем кнопку меню на мобильных */
+         display: block;
     }
     
   
@@ -256,19 +256,19 @@ footer a:hover {
         top: 100%;
         left: 0;
         width: 100%;
-        background: #f0f0f0;
+        background: #ffffff;
          box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-         z-index: 1000; /* Ensure menu is above other elements */
+         z-index: 1000; 
 
     }
 
     .nav-menu.active {
-        display: block; /* Показывать меню при добавлении класса .active */
+        display: block;
     }
      .nav-menu ul {
        display: flex;
        flex-direction: column;
-       padding: 10px; /* Добавляем отступы */
+       padding: 10px; 
     }
 
     .nav-menu ul li {

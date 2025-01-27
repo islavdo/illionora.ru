@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOLLARD - Main</title>
+    <link rel="icon" href="b_g.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="container">
+        <img src="logo.png" alt="BOLLARD">
+        
+        <button class="menu-toggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <li><a href="ru.html">RU</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>LLC BOLLARD</h1>
+            <p>Your trusted partner in the world of maritime operations</p>
+            <a href="#contact" class="btn">Contact us</a>
+        </div>
+    </section>
+    <section id="about" class="content-section">
+        <div class="container">
+           <h1>The website is currently under development. <br>We apologize for the inconvenience!</h1>
+        </div>
+    </section>
+      <section id="contact" class="content-section">
+        <div class="container">
+            <h2>Contact information</h2>
+            <div class="contact-wrapper">
+              <div class="contact-left">
+                    <p><b>LLC BOLLARD (ООО "Боллард")</b><br>
+                    <b>PSRN:</b> 1232300023603</p>
+                    <b>TIN:</b> 2315229937</p>
+              </div>
+                <div class="contact-right">
+                    <p>
+                    <b>Actual address:</b><br>353900, Krasnodar Territory, Novorossiysk, Mira St., 24<br>
+                    <b>Legal address:</b><br>353919, Krasnodar Territory, Novorossiysk, Myshakskoe highway, 75, room 209<br>
+                    <b>Phone number:</b> <a href="tel:+78617700095">+7 (8617) 70-00-95</a><br>
+                    <b>Email:</b> <a href="mailto:info@bollard-marine.group">info@bollard-marine.group</a>
+                    </p>
+                </div>
+           </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    <p>&copy; 2025 LLC BOLLARD</p>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+<script>
+        const menuToggle = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        navMenu.classList.toggle('active');
+});
+</script>
+</body>
+</html>
