@@ -1,0 +1,75 @@
+﻿<html>
+<head>
+	<title>Print Certificate</title>
+</head>
+<body>
+	<script type="text/javascript">
+	
+		/*Get string from URL*/
+		var learner_info = window.location.href.split('?print=')[1];
+		
+		/*Split string into variables*/
+		var learner_name = learner_info.split('&')[0];
+		var cert_date = learner_info.split('&')[1];
+					
+
+		/*Rounded border*/
+		document.write('<div id="position" style="background-color:White;width:700px;height:975x;padding:1px;border:0px outset gray;">');
+		
+		/*Content*/
+		document.write('<div id="bigText" style="font-weight: bold">CERTIFICATE</div>');
+		document.write('<img src="logo.jpg">');
+		document.write('<div id="smallText">To declare that:</div>');
+		document.write('<div id="bigText">' + unescape(learner_name) + '</div>');
+		document.write('<div id="smallText">Successfully completed the:</div>');
+		document.write('<div id="bigText">Smit Lamnalco</div>');
+		document.write('<div id="bigText">Integrated Management System</div>');
+		document.write('<div id="bigText">(SLIMS)</div>');
+		document.write('<div id="smallText">e-training module</div>');
+		document.write ("<br>"); 
+		document.write('<div id="bigText">HSE Induction Test</div>');	
+		document.write('<div id="smallText">' + unescape(cert_date) + '</div>');
+		document.write ("<br>"); 
+		document.write ("<br>"); 
+		document.write ("<br>"); 
+		document.write ("<br>"); 
+		document.write ("<br>");
+		document.write ("<br>");
+		document.write('<div id="smallText">The training provider</div>');		
+		document.write('<div id="smallText">SMIT LAMNALCO, WAALHAVEN OZ 85, 3087 BM ROTTERDAM, NETHERLANDS, WWW.SMITLAMNALCO.COM</div>');
+		document.write('</div>');
+
+		/*Send print request to browser if possible*/
+		window.onload = function() { window.print(); }
+
+	</script>
+
+	<style type="text/css">
+
+		#bigText{
+			overflow:auto;
+			font-size:36px;
+			font-family: Serif;
+			margin-top: 27px;
+			text-align: center;
+		}
+		
+		#smallText{
+			overflow:auto;
+			font-size:18px;
+			font-family: Sans-Serif;
+			margin-top: 27px;
+			text-align: center;
+		}
+		#position{
+			display: table-cell;
+			vertical-align: top;
+		}
+
+	</style>
+
+</body>
+
+
+
+</html>
