@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Certificate</title>
+  <link rel="stylesheet" href="css/certificate.css" />
+</head>
+<body>
+  <main class="sheet" id="sheet" aria-label="Certificate">
+    <div class="top">
+      <img src="assets/logo.png" alt="BOLLARD logo" />
+      <div class="brand">
+        <div class="company" id="company">BOLLARD</div>
+        <div class="system" id="system">SMS BOLLARD</div>
+      </div>
+    </div>
+
+    <div class="title" id="ctitle">Certificate of Completion</div>
+    <div class="subtitle" id="csubtitle">E-learning</div>
+
+    <div class="name" id="name">—</div>
+
+    <div class="footer">
+      <div class="meta">
+        <div class="label" id="dateLabel">Date</div>
+        <div class="value" id="date">—</div>
+      </div>
+      <div class="stamp">
+        <div class="providerLabel" id="provLabel">Provider</div>
+        <div class="provider" id="provider">BOLLARD</div>
+      </div>
+    </div>
+  </main>
+
+  <div class="controls">
+    <button id="printBtn">Print</button>
+  </div>
+
+  <script>
+    async function boot(){
+      const url = new URL(window.location.href);
+      const name = url.searchParams.get("name") || "";
+      const date = url.searchParams.get("date") || "";
+      const lang = url.searchParams.get("lang") || "en";
+
+      const course = await (await fetch("data/course.json")).json();
+      const i18n = await (await fetch("data/i18n.json")).json();
+      const c = course.certificate || {};
+      const getText = (o)=> (o && (o[lang] || o.en || o.ru)) || "";
+
+      document.documentElement.style.setProperty("--primary", course.branding?.primaryColor || "#008080");
+      document.getElementById("company").textContent = course.branding?.company || "BOLLARD";
+      document.getElementById("system").textContent = course.branding?.system || "SMS BOLLARD";
+      document.getElementById("ctitle").textContent = getText(c.title) || (lang==="ru" ? "Сертификат о прохождении" : "Certificate of Completion");
+      document.getElementById("csubtitle").textContent = getText(c.subtitle) || (lang==="ru" ? "Электронное обучение" : "E-learning");
+      document.getElementById("provider").textContent = getText(c.provider) || "BOLLARD";
+      document.getElementById("provLabel").textContent = (lang==="ru" ? "Провайдер" : "Provider");
+      document.getElementById("dateLabel").textContent = (lang==="ru" ? "Дата" : "Date");
+
+      document.getElementById("name").textContent = name || "—";
+      document.getElementById("date").textContent = date || "—";
+
+      document.getElementById("printBtn").textContent = (lang==="ru" ? "Печать" : "Print");
+      document.getElementById("printBtn").onclick = ()=> window.print();
+    }
+    boot();
+  </script>
+</body>
+</html>

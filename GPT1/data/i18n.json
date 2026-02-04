@@ -1,0 +1,40 @@
+{
+  "ru": {
+    "courseTitle": "BOLLARD — Веб‑курс",
+    "welcome": "Добро пожаловать",
+    "chooseModule": "Выберите модуль",
+    "start": "Начать",
+    "continue": "Продолжить",
+    "back": "Назад",
+    "next": "Далее",
+    "finish": "Завершить",
+    "quiz": "Тест",
+    "submit": "Отправить",
+    "retry": "Попробовать снова",
+    "passed": "Пройдено",
+    "failed": "Не пройдено",
+    "yourName": "Ваше имя",
+    "date": "Дата",
+    "printCertificate": "Распечатать сертификат",
+    "progressSaved": "Прогресс сохранён в этом браузере."
+  },
+  "en": {
+    "courseTitle": "BOLLARD — Web Course",
+    "welcome": "Welcome",
+    "chooseModule": "Choose a module",
+    "start": "Start",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "finish": "Finish",
+    "quiz": "Quiz",
+    "submit": "Submit",
+    "retry": "Try again",
+    "passed": "Passed",
+    "failed": "Failed",
+    "yourName": "Your name",
+    "date": "Date",
+    "printCertificate": "Print certificate",
+    "progressSaved": "Progress saved in this browser."
+  }
+}

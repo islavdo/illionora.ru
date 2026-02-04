@@ -1,0 +1,1804 @@
+{
+  "version": 1,
+  "branding": {
+    "primaryColor": "#008080",
+    "company": "BOLLARD",
+    "system": "SMS BOLLARD"
+  },
+  "modules": [
+    {
+      "id": "intro",
+      "title": {
+        "ru": "Введение",
+        "en": "Introduction"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "home",
+            "en": "home"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB who we are video",
+            "en": "LB who we are video"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB introduction",
+            "en": "LB introduction"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB feedback",
+            "en": "LB feedback"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "intro page",
+            "en": "intro page"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Введение",
+              "en": "Sample question for module: Introduction"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "security",
+      "title": {
+        "ru": "Безопасность (ISPS)",
+        "en": "Security (ISPS)"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "start security test",
+            "en": "start security test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "menu isps",
+            "en": "menu isps"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "security levels",
+            "en": "security levels"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "video isps",
+            "en": "video isps"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "Что означает ISPS? ",
+            "en": "Что означает ISPS? "
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Безопасность (ISPS)",
+              "en": "Sample question for module: Security (ISPS)"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "risk",
+      "title": {
+        "ru": "Оценка рисков и LMRA",
+        "en": "Risk Awareness & LMRA"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "PPE high risk jobs",
+            "en": "PPE high risk jobs"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "start lmra test",
+            "en": "start lmra test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "hazard risk video",
+            "en": "hazard risk video"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "what is risk",
+            "en": "what is risk"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "risk management proces",
+            "en": "risk management proces"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "risk management form",
+            "en": "risk management form"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "risk assessment",
+            "en": "risk assessment"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "В каком разделе SLIMS описан процесс Контрольной оценки риска (LMRA)?",
+            "en": "В каком разделе SLIMS описан процесс Контрольной оценки риска (LMRA)?"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Оценка рисков и LMRA",
+              "en": "Sample question for module: Risk Awareness & LMRA"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "hazid",
+      "title": {
+        "ru": "Идентификация опасностей",
+        "en": "Hazard Identification"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "start hazard identification test",
+            "en": "start hazard identification test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "hazard risk video",
+            "en": "hazard risk video"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Идентификация опасностей",
+              "en": "Sample question for module: Hazard Identification"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "ppe",
+      "title": {
+        "ru": "СИЗ (PPE)",
+        "en": "PPE"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "ppe last barrier",
+            "en": "ppe last barrier"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "ppe no tampering",
+            "en": "ppe no tampering"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "NOT ppe",
+            "en": "NOT ppe"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "PPE outside accommodation",
+            "en": "PPE outside accommodation"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "PPE high risk jobs",
+            "en": "PPE high risk jobs"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "PPE floatation",
+            "en": "PPE floatation"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "ppe",
+            "en": "ppe"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB boots",
+            "en": "LB boots"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: СИЗ (PPE)",
+              "en": "Sample question for module: PPE"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "ptw",
+      "title": {
+        "ru": "Разрешения на работы (PTW)",
+        "en": "Permit to Work (PTW)"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "ptw",
+            "en": "ptw"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "start ptw test",
+            "en": "start ptw test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB hot work permit",
+            "en": "LB hot work permit"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Разрешения на работы (PTW)",
+              "en": "Sample question for module: Permit to Work (PTW)"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "hotwork",
+      "title": {
+        "ru": "Огневые работы (Hot Work)",
+        "en": "Hot Work"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB hot work / cold work",
+            "en": "LB hot work / cold work"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "start hot work test",
+            "en": "start hot work test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB types of hot work",
+            "en": "LB types of hot work"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB hot work permit",
+            "en": "LB hot work permit"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Огневые работы (Hot Work)",
+              "en": "Sample question for module: Hot Work"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "confined",
+      "title": {
+        "ru": "Замкнутые пространства",
+        "en": "Confined Spaces"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB enclosed space entry",
+            "en": "LB enclosed space entry"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "start confined spaces test",
+            "en": "start confined spaces test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "definition confined space",
+            "en": "definition confined space"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "what is confined space",
+            "en": "what is confined space"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Замкнутые пространства",
+              "en": "Sample question for module: Confined Spaces"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "height",
+      "title": {
+        "ru": "Работы на высоте",
+        "en": "Working at Height"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB working aloft",
+            "en": "LB working aloft"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "start working height test",
+            "en": "start working height test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "working at height",
+            "en": "working at height"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Работы на высоте",
+              "en": "Sample question for module: Working at Height"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "manual",
+      "title": {
+        "ru": "Ручные работы и эргономика",
+        "en": "Manual Handling"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "start manual handling test",
+            "en": "start manual handling test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Ручные работы и эргономика",
+              "en": "Sample question for module: Manual Handling"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "lifting",
+      "title": {
+        "ru": "Подъёмное оборудование",
+        "en": "Lifting Equipment"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "start lifting equipment test",
+            "en": "start lifting equipment test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB lifting devices and tools",
+            "en": "LB lifting devices and tools"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Подъёмное оборудование",
+              "en": "Sample question for module: Lifting Equipment"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mooring",
+      "title": {
+        "ru": "Швартовка",
+        "en": "Mooring Safety"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "start mooring safety test",
+            "en": "start mooring safety test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB mooring unmooring",
+            "en": "LB mooring unmooring"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Швартовка",
+              "en": "Sample question for module: Mooring Safety"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "hazmat",
+      "title": {
+        "ru": "Опасные материалы",
+        "en": "Hazardous Materials"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "start hazardous materials test",
+            "en": "start hazardous materials test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "chemical facts",
+            "en": "chemical facts"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Опасные материалы",
+              "en": "Sample question for module: Hazardous Materials"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "waste",
+      "title": {
+        "ru": "Управление отходами",
+        "en": "Waste Management"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "start waste management test",
+            "en": "start waste management test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB waste management",
+            "en": "LB waste management"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "operational waste",
+            "en": "operational waste"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "waste management",
+            "en": "waste management"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Управление отходами",
+              "en": "Sample question for module: Waste Management"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "env",
+      "title": {
+        "ru": "Экологические аспекты",
+        "en": "Environmental Aspects"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "start environmental aspects test",
+            "en": "start environmental aspects test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Экологические аспекты",
+              "en": "Sample question for module: Environmental Aspects"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "hygiene",
+      "title": {
+        "ru": "Гигиена на борту",
+        "en": "Hygiene on Board"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "Proper hygiene1",
+            "en": "Proper hygiene1"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "Proper hygiene2",
+            "en": "Proper hygiene2"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "personel hygiene",
+            "en": "personel hygiene"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "hygiene messroom",
+            "en": "hygiene messroom"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "start hygiene on board test",
+            "en": "start hygiene on board test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Гигиена на борту",
+              "en": "Sample question for module: Hygiene on Board"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "reporting",
+      "title": {
+        "ru": "Сообщение о происшествиях",
+        "en": "Event Reporting"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "start event reporting test",
+            "en": "start event reporting test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "incident categories",
+            "en": "incident categories"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB example incident",
+            "en": "LB example incident"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB example defect",
+            "en": "LB example defect"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "LB example near miss",
+            "en": "LB example near miss"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Сообщение о происшествиях",
+              "en": "Sample question for module: Event Reporting"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "drills",
+      "title": {
+        "ru": "Учения и тренировки",
+        "en": "Drills and Exercises"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "start drills and exercises test",
+            "en": "start drills and exercises test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "drills and exercises",
+            "en": "drills and exercises"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "set up a drill",
+            "en": "set up a drill"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "Review the drill",
+            "en": "Review the drill"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "Log the drill",
+            "en": "Log the drill"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "Set targets next drill",
+            "en": "Set targets next drill"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "Describe the drill",
+            "en": "Describe the drill"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Учения и тренировки",
+              "en": "Sample question for module: Drills and Exercises"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "orders",
+      "title": {
+        "ru": "Приказы компании",
+        "en": "Company Orders"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "start company orders test",
+            "en": "start company orders test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Приказы компании",
+              "en": "Sample question for module: Company Orders"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "appraisals",
+      "title": {
+        "ru": "Оценки (Appraisals)",
+        "en": "Appraisals"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "start appraisals test",
+            "en": "start appraisals test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "why do we appraise",
+            "en": "why do we appraise"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "how should we appraise 1",
+            "en": "how should we appraise 1"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "how should we appraise 2",
+            "en": "how should we appraise 2"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "who will be appraised",
+            "en": "who will be appraised"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "appraisal",
+            "en": "appraisal"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Оценки (Appraisals)",
+              "en": "Sample question for module: Appraisals"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "recruit",
+      "title": {
+        "ru": "Подбор персонала",
+        "en": "Recruitment"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "choice recruitment test",
+            "en": "choice recruitment test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Подбор персонала",
+              "en": "Sample question for module: Recruitment"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "passage",
+      "title": {
+        "ru": "Переход и навигация",
+        "en": "Passage Planning"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "start passage test",
+            "en": "start passage test"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "passage planning",
+            "en": "passage planning"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ],
+      "quiz": {
+        "passScore": 80,
+        "questions": [
+          {
+            "type": "mcq",
+            "text": {
+              "ru": "Пример вопроса для модуля: Переход и навигация",
+              "en": "Sample question for module: Passage Planning"
+            },
+            "options": [
+              {
+                "ru": "Вариант A",
+                "en": "Option A"
+              },
+              {
+                "ru": "Вариант B",
+                "en": "Option B"
+              },
+              {
+                "ru": "Вариант C",
+                "en": "Option C"
+              }
+            ],
+            "answerIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "roles",
+      "title": {
+        "ru": "Роли и обязанности",
+        "en": "Roles & Duties"
+      },
+      "pages": [
+        {
+          "type": "content",
+          "title": {
+            "ru": "role supervisor",
+            "en": "role supervisor"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "chief officer",
+            "en": "chief officer"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "chief engineer",
+            "en": "chief engineer"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "2nd officer",
+            "en": "2nd officer"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "captain",
+            "en": "captain"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "2nd engineer",
+            "en": "2nd engineer"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "role of the gangway",
+            "en": "role of the gangway"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        },
+        {
+          "type": "content",
+          "title": {
+            "ru": "duties",
+            "en": "duties"
+          },
+          "body": {
+            "ru": "<p><em>Контент будет добавлен сюда.</em></p>",
+            "en": "<p><em>Content will be added here.</em></p>"
+          }
+        }
+      ]
+    }
+  ],
+  "certificate": {
+    "title": {
+      "ru": "Сертификат о прохождении",
+      "en": "Certificate of Completion"
+    },
+    "subtitle": {
+      "ru": "Электронное обучение",
+      "en": "E-learning"
+    },
+    "provider": {
+      "ru": "BOLLARD",
+      "en": "BOLLARD"
+    }
+  }
+}

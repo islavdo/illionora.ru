@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BOLLARD — Web Course</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container toolbar">
+      <div class="brand" aria-label="Brand">
+        <img src="assets/logo.png" alt="BOLLARD logo" />
+        <div class="meta">
+          <div class="title" id="courseTitle">BOLLARD — Веб‑курс</div>
+          <div class="sub" id="courseSub">SMS BOLLARD</div>
+        </div>
+      </div>
+      <div class="lang" aria-label="Language switch">
+        <button class="pill" id="langRu" aria-pressed="true">RU</button>
+        <button class="pill" id="langEn" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container grid">
+      <aside class="card">
+        <h2 id="chooseModule">Выберите модуль</h2>
+        <div class="list" id="moduleList"></div>
+        <div class="toast" id="toast"></div>
+      </aside>
+
+      <section class="card">
+        <div class="progress" aria-label="Progress"><div id="progbar"></div></div>
+        <div style="height:14px"></div>
+        <div id="view"></div>
+
+        <div class="btnrow" aria-label="Navigation">
+          <button class="btn secondary" id="btnBack">Назад</button>
+          <button class="btn" id="btnNext">Далее</button>
+          <button class="btn secondary" id="btnFinish">Распечатать сертификат</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

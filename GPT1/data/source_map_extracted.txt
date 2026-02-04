@@ -1,0 +1,26 @@
+Извлечённые ключевые тесты из исходного Storyline-пакета:
+- choice recruitment test
+- LB atm testing
+- start ppe test
+- start lifting equipment test
+- start mooring safety test
+- start hazard identification test
+- start drills and exercises test
+- start lmra test
+- start working height test
+- start manual handling test
+- start hazardous materials test
+- start company orders test
+- start confined spaces test
+- start waste management test
+- start environmental aspects test
+- start event reporting test
+- start appraisals test
+- start d_a test
+- start hot work test
+- start security test
+- start passage test
+- start ptw test
+- start hygiene on board test
+
+Примечание: медиа-файлы могли быть удалены из примера, поэтому переносится структура и названия.
