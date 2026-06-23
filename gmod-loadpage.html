@@ -1,42 +1,34 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Полноэкранное фото</title>
     <style>
-        /* Убираем отступы у body и html */
-        html, body {
+        /* Сброс отступов – чтобы фото занимало ВЕСЬ экран */
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
             width: 100%;
             height: 100%;
-            overflow: hidden; /* убираем прокрутку */
+            overflow: hidden; /* убираем полосы прокрутки */
         }
-        /* Вариант 1: через тег img */
-        .fullscreen-img {
+        /* Картинка растягивается на весь экран, сохраняя пропорции */
+        .fullscreen-image {
             width: 100vw;
             height: 100vh;
-            object-fit: cover; /* обрезает, но сохраняет пропорции, заполняя весь экран */
-            display: block;
+            object-fit: cover;   /* обрезает края, но заполняет всё поле */
+            display: block;      /* убирает лишний отступ снизу */
         }
-        /* Вариант 2: через фон (закомментирован) */
-        /*
-        body {
-            background-image: url('photo.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        */
+        /* Если хотите, чтобы фото растягивалось без обрезки (искажаясь),
+           замените object-fit: cover; на object-fit: fill; */
     </style>
 </head>
 <body>
-    <!-- Вариант 1: используем тег img -->
-    <img src="photo.jpg" alt="Полноэкранное фото" class="fullscreen-img">
-    
-    <!-- Если хотите вариант с фоном, замените body на:
-    <body style="background-image: url('photo.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; margin:0;">
-    -->
+    <!-- Укажите здесь ПУТЬ К ВАШЕМУ ФАЙЛУ -->
+    <img src="photo.jpg" alt="Фото на весь экран" class="fullscreen-image" />
 </body>
 </html>
