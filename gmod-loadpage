@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полноэкранное фото</title>
+    <style>
+        /* Убираем отступы у body и html */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* убираем прокрутку */
+        }
+        /* Вариант 1: через тег img */
+        .fullscreen-img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover; /* обрезает, но сохраняет пропорции, заполняя весь экран */
+            display: block;
+        }
+        /* Вариант 2: через фон (закомментирован) */
+        /*
+        body {
+            background-image: url('photo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        */
+    </style>
+</head>
+<body>
+    <!-- Вариант 1: используем тег img -->
+    <img src="photo.jpg" alt="Полноэкранное фото" class="fullscreen-img">
+    
+    <!-- Если хотите вариант с фоном, замените body на:
+    <body style="background-image: url('photo.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; margin:0;">
+    -->
+</body>
+</html>
